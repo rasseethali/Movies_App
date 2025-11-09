@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/watchlist" element={<Watchlist />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
