@@ -13,7 +13,6 @@ const Watchlist = () => {
   const filteredMovies = watchlist.filter((movie) =>
     movie.title.toLowerCase().includes(query.toLowerCase())
   );
-g
   return (
     <div className="pt-24 px-4  justify-center  min-h-screen text-white">
       <input
